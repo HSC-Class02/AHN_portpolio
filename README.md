@@ -1,20 +1,40 @@
 # 안해나 | Personal Portfolio
 
-따뜻한 옐로 메인 화면과 베이지 콘텐츠 영역을 적용한 단일 페이지형 포트폴리오입니다.
+사람을 향한 마음, 보건의료 현장 경험, 간호 전문성, 데이터 활용 프로젝트를 한눈에 볼 수 있도록 구성한 **스크롤형 개인 포트폴리오**입니다.
 
-## 카테고리 구성
-1. **HOME** — 개인 브랜드와 핵심 메시지
-2. **ABOUT** — 보건행정 전공, 병원 행정 경력, 간호학과 학업
-3. **AI REPORTS** — AI 활용 프로젝트 및 DART 기업 재무분석 대시보드
-4. **QUALIFICATIONS** — 교육·자격 및 AI 윤리 수료 내역
-5. **ACTIVITIES** — 병원 근무 경험, 동아리, 봉사활동
+## Portfolio Structure
 
-## 실행
-저장소 루트의 `index.html`을 브라우저에서 열면 미리 볼 수 있습니다.
+상단 메뉴는 핵심 내용이 겹치지 않도록 5개 카테고리로 정리했습니다.
 
-## GitHub Pages 배포
-저장소 **Settings → Pages → Build and deployment**에서 **Deploy from a branch**를 선택한 뒤, Branch는 `main`, Folder는 `/(root)`로 지정하고 저장하세요. 조직 정책 및 저장소 공개 범위에 따라 Pages 사용이 제한될 수 있습니다.
+| Category | 주요 내용 |
+|---|---|
+| **HOME** | 개인 브랜드 메시지와 포트폴리오 전체 소개 |
+| **ABOUT** | 보건행정학 전공, 병원 행정 경력, 간호학과 재학, 핵심 가치 |
+| **AI REPORTS** | DART 공시 데이터를 활용한 에스디바이오센서 재무분석 프로젝트 |
+| **QUALIFICATIONS** | 교육·자격·수료 이력 및 AI 윤리 과정 수료증 |
+| **ACTIVITIES** | 병원 근무 경험, 간호학 학습, 절주 동아리, 요양병원 봉사 |
 
-## 프로젝트 링크
+## Featured Project
+
+- **SD Biosensor DART Dashboard**: DART 공시 기반 재무 데이터 분석 및 시각화  
+  https://hsc-class02.github.io/HN_SD.BIO/
+
+## Design & Interaction
+
+- 노란색 메인 히어로와 베이지 톤 콘텐츠 영역
+- 상단 고정 내비게이션과 섹션별 부드러운 스크롤 이동
+- 모바일 화면에 대응하는 반응형 레이아웃
+- 별도 이미지 폴더 없이 루트의 단일 `index.html`로 실행
+- 수료증 자료를 QUALIFICATIONS 섹션에 통합
+
+## Run Locally
+
+저장소를 내려받은 뒤 루트의 `index.html`을 브라우저에서 열면 확인할 수 있습니다.
+
+## GitHub Pages
+
+저장소의 **Settings → Pages → Build and deployment**에서 **Deploy from a branch**를 선택하고, Branch는 `main`, Folder는 `/(root)`로 지정한 뒤 저장하면 GitHub Pages로 배포할 수 있습니다.
+
+## Owner
+
 - GitHub: https://github.com/naena0815-maker
-- SD Biosensor DART Dashboard: https://hsc-class02.github.io/HN_SD.BIO/
